@@ -4,22 +4,20 @@
 
 ## Problem
 
-### USD
-
-Write a C program to print `$`
+_Description not available._
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T12:10:18.452Z  
+**Submitted:** 2026-11-11T12:09:02.157Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
-	printf("$");
+	printf("%d", 4+8);
 	return 0;
 
 }
