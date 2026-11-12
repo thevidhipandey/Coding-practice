@@ -1,0 +1,70 @@
+# CASS27 - Rating 650
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+### Even Sum
+
+Given two space separated integers as user inputs, print `YES` if their sum is even else `NO`.
+
+### Sample 1:
+Input
+Output
+
+```
+2 3
+```
+
+```
+NO
+```
+
+### Explanation:
+
+2 + 3 = 5 (Odd)
+
+### Sample 2:
+Input
+Output
+
+```
+3 5
+```
+
+```
+YES
+```
+
+### Explanation:
+
+3 + 5 = 8 (Even)
+
+## Solution
+
+**Language:** c_cpp  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-11-12T14:33:04.885Z  
+
+```c_cpp
+#include <stdio.h>
+
+int main() {
+    int a, b, sum;
+    
+    scanf("%d %d", &a, &b);
+    sum = a + b;
+    
+    if(sum % 2 == 0)
+        printf("YES");
+    else
+        printf("NO");
+
+    return 0;
+}
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/CASS27)
