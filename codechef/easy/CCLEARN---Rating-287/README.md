@@ -61,7 +61,7 @@ If there are $9$ languages, then there will be $2 * 9 = 18$ courses in total.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-12T14:23:48.749Z  
+**Submitted:** 2026-11-12T14:24:22.106Z  
 
 ```c_cpp
 #include <stdio.h>
