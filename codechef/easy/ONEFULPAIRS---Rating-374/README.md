@@ -67,7 +67,7 @@ $(1, 56)$ is not a $\text{Oneful Pair}$, since $1 + 56 + (1 \cdot 56) = 57 + 56 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T11:53:05.367Z  
+**Submitted:** 2026-11-13T11:53:29.401Z  
 
 ```c_cpp
 #include <stdio.h>
