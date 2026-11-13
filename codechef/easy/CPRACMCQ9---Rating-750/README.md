@@ -20,7 +20,7 @@ Which of these pairs are $\text{Oneful Pair}$?
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T11:51:22.005Z  
+**Submitted:** 2026-11-13T11:51:25.182Z  
 
 ```cpp
 #include <stdio.h>
