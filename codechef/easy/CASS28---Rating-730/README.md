@@ -60,7 +60,7 @@ Equilateral
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-12T14:36:11.327Z  
+**Submitted:** 2026-11-13T11:41:21.944Z  
 
 ```c_cpp
 #include <stdio.h>
