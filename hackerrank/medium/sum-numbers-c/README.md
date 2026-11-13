@@ -1,4 +1,4 @@
-# Playing With Characters
+# Sum and Difference of Two Numbers
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -46,7 +46,7 @@ Print the sum and difference of both integers separated by a space on the first 
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T14:28:31.717Z  
+**Submitted:** 2026-11-13T14:25:16.847Z  
 
 ```c
 #include <stdio.h>
@@ -54,15 +54,13 @@ Print the sum and difference of both integers separated by a space on the first 
 #include <math.h>
 #include <stdlib.h>
 
-int main() 
+int main()
 {
-
-    char ch, s[100], sen[100];
-    scanf("%c", &ch);
-    scanf("%s", s);
-    scanf("\n");
-    scanf("%[^^z]", sen);
-    printf("%c\n%s\n%s", ch, s, sen);    
+	int a, b;
+    float c, d;
+    scanf("%d %d", &a, &b);
+    scanf("%f %f", &c, &d);
+    printf("%d %d\n%0.1f %0.1f", a+b, a-b, c+d, c-d);
     return 0;
 }
 
