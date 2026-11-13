@@ -30,7 +30,7 @@ For floating-point number 5.5, its floor value 5 is printed.
 **Language:** c(gcc5.4)  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T14:30:37.557Z  
+**Submitted:** 2026-11-13T14:31:48.941Z  
 
 ```c(gcc5.4)
 #include <math.h>
