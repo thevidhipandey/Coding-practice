@@ -3,14 +3,12 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() 
+int main()
 {
-
-    char ch, s[100], sen[100];
-    scanf("%c", &ch);
-    scanf("%s", s);
-    scanf("\n");
-    scanf("%[^^z]", sen);
-    printf("%c\n%s\n%s", ch, s, sen);    
+	int a, b;
+    float c, d;
+    scanf("%d %d", &a, &b);
+    scanf("%f %f", &c, &d);
+    printf("%d %d\n%0.1f %0.1f", a+b, a-b, c+d, c-d);
     return 0;
 }
