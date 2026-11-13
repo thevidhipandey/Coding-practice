@@ -60,7 +60,7 @@ Equilateral
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T11:41:21.944Z  
+**Submitted:** 2026-11-13T11:42:54.905Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -68,12 +68,15 @@ Equilateral
 int main() {
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c);
+    if(a>0 && a<=100 && b>0 && b<=100 & c>0 && c<=100)
+    {
     if(a==b==c)
     printf("Equilateral");
     else if(a==b || b==c || a==c)
     printf("Isosceles");
     else
     printf("Scalene");
+    }
 
     return 0;
 }
