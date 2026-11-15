@@ -55,7 +55,7 @@ Alice has scored $X = 1$ mark whereas Bob has scored $Y = 2$ marks. As Alice has
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T11:51:00.276Z  
+**Submitted:** 2026-11-15T19:44:55.104Z  
 
 ```c_cpp
 #include <stdio.h>
